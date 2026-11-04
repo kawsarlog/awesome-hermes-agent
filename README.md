@@ -34,6 +34,9 @@ Hermes Agent (by [Nous Research](https://nousresearch.com)) is a self-improving 
 - [Who is it for](#who-is-it-for)
 - [Why it is useful](#why-it-is-useful)
 - [Guides](#guides)
+- [Official docs map](#official-docs-map)
+- [Video tutorials](#video-tutorials)
+- [Community](#community)
 - [Official links](#official-links)
 - [Popular ecosystem](#popular-ecosystem)
 - [Community indexes](#community-indexes)
@@ -122,6 +125,70 @@ More detail: [docs/getting-started.md](docs/getting-started.md) · [docs/install
 | [limits](docs/limits.md) | Honest limits |
 | [cheat-sheet](docs/cheat-sheet.md) | One page |
 | [learning-path](docs/learning-path.md) | Study order |
+
+---
+
+## Official docs map
+
+Pages from the [official docs](https://hermes-agent.nousresearch.com/docs/). Verified against the docs landing page on 2026-11-04.
+
+| Topic | What it covers | Link |
+|-------|----------------|------|
+| Installation | Linux, macOS, WSL2, native Windows, Nix, Android | [Open](https://hermes-agent.nousresearch.com/docs/getting-started/installation) |
+| Quickstart | First conversation and key features | [Open](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart) |
+| Learning path | Docs by experience level | [Open](https://hermes-agent.nousresearch.com/docs/getting-started/learning-path) |
+| Termux | aarch64 Android install | [Open](https://hermes-agent.nousresearch.com/docs/getting-started/termux) |
+| Platform support | Support matrix | [Open](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support) |
+| Configuration | Config file, providers, models | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/configuration) |
+| Messaging gateway | Telegram, Discord, Slack, WhatsApp, Teams | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/) |
+| Bot mode | Named bots with own model, memory, skills | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode) |
+| Tools and toolsets | 60+ built-in tools | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools) |
+| Memory | Persistent memory across sessions | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory) |
+| Skills | Procedural memory the agent reuses | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills) |
+| MCP | Connect and filter MCP servers | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp) |
+| Use MCP with Hermes | Practical setup patterns | [Open](https://hermes-agent.nousresearch.com/docs/guides/use-mcp-with-hermes) |
+| Voice mode | CLI, Telegram, Discord voice | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/voice-mode) |
+| Personality and SOUL.md | Global default voice | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/personality) |
+| Context files | Project context for every chat | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files) |
+| Security | Approvals, authorization, isolation | [Open](https://hermes-agent.nousresearch.com/docs/user-guide/security) |
+| Tips and best practices | Quick wins | [Open](https://hermes-agent.nousresearch.com/docs/guides/tips) |
+| Nous Portal | Provider integration | [Open](https://hermes-agent.nousresearch.com/docs/integrations/nous-portal) |
+| Skills browser | Browse skills | [Open](https://hermes-agent.nousresearch.com/docs/skills) |
+| Plugins browser | Browse plugins | [Open](https://hermes-agent.nousresearch.com/docs/plugins) |
+| User stories | Real use cases | [Open](https://hermes-agent.nousresearch.com/docs/user-stories) |
+| Architecture | How it works inside | [Open](https://hermes-agent.nousresearch.com/docs/developer-guide/architecture) |
+| CLI reference | All commands | [Open](https://hermes-agent.nousresearch.com/docs/reference/cli-commands) |
+| FAQ | Common problems | [Open](https://hermes-agent.nousresearch.com/docs/reference/faq) |
+
+---
+
+## Video tutorials
+
+Third-party tutorials (none are official Nous Research videos). Titles and channels checked on YouTube on 2026-11-04. Hermes changes fast, so older videos may show outdated commands. Check the [docs](https://hermes-agent.nousresearch.com/docs/) when something differs.
+
+| Preview | Video | Channel | Good for |
+|:--:|---|---|---|
+| <a href="https://www.youtube.com/watch?v=_h6Jg65xe5g"><img src="https://img.youtube.com/vi/_h6Jg65xe5g/mqdefault.jpg" width="160" alt="Hermes Agent Tutorial: Skills, Memory & Subagents in 5 Minutes"></a> | [Hermes Agent Tutorial: Skills, Memory & Subagents in 5 Minutes](https://www.youtube.com/watch?v=_h6Jg65xe5g) | Learn Hermes Agent | Quick overview |
+| <a href="https://www.youtube.com/watch?v=bNp6YcKBLgY"><img src="https://img.youtube.com/vi/bNp6YcKBLgY/mqdefault.jpg" width="160" alt="Hermes Agent Crash Course: Self-Evolving Skills, Memory, GEPA & Scaling to 10 Agents"></a> | [Hermes Agent Crash Course: Self-Evolving Skills, Memory, GEPA & Scaling to 10 Agents](https://www.youtube.com/watch?v=bNp6YcKBLgY) | Akshay Pachaar | Deeper crash course |
+| <a href="https://www.youtube.com/watch?v=HTAjKhgmIi4"><img src="https://img.youtube.com/vi/HTAjKhgmIi4/mqdefault.jpg" width="160" alt="Hermes Agent - Full Tutorial & Setup Guide (AI Business Partner for Beginners)"></a> | [Hermes Agent - Full Tutorial & Setup Guide (AI Business Partner for Beginners)](https://www.youtube.com/watch?v=HTAjKhgmIi4) | Jacques Hopkins | Desktop + Telegram setup |
+| <a href="https://www.youtube.com/watch?v=UVlK4lsvR4E"><img src="https://img.youtube.com/vi/UVlK4lsvR4E/mqdefault.jpg" width="160" alt="How to Install Hermes Agent on Windows (Full Setup + Skills)"></a> | [How to Install Hermes Agent on Windows (Full Setup + Skills)](https://www.youtube.com/watch?v=UVlK4lsvR4E) | AI Automation | Windows install |
+| <a href="https://www.youtube.com/watch?v=LvWobwr0Neg"><img src="https://img.youtube.com/vi/LvWobwr0Neg/mqdefault.jpg" width="160" alt="Hermes Agent Tutorial for Beginners (Full Step-by-Step Setup)"></a> | [Hermes Agent Tutorial for Beginners (Full Step-by-Step Setup)](https://www.youtube.com/watch?v=LvWobwr0Neg) | Metics Media | VPS, Telegram, skills, scheduled jobs |
+| <a href="https://www.youtube.com/watch?v=Q2aRpDrDTpo"><img src="https://img.youtube.com/vi/Q2aRpDrDTpo/mqdefault.jpg" width="160" alt="How to Automate Tasks with Hermes Agent (Telegram)"></a> | [How to Automate Tasks with Hermes Agent (Telegram)](https://www.youtube.com/watch?v=Q2aRpDrDTpo) | MMX | Telegram automation |
+| <a href="https://www.youtube.com/watch?v=s6RZ5_cnQ0g"><img src="https://img.youtube.com/vi/s6RZ5_cnQ0g/mqdefault.jpg" width="160" alt="Hermes Agent Memory Tutorial"></a> | [Hermes Agent Memory Tutorial](https://www.youtube.com/watch?v=s6RZ5_cnQ0g) | MMX | Memory |
+| <a href="https://www.youtube.com/watch?v=UEszjeHEeSo"><img src="https://img.youtube.com/vi/UEszjeHEeSo/mqdefault.jpg" width="160" alt="Hermes Agent First Look - Nous Research's Self-Improving AI Agent (Quickstart Walkthrough)"></a> | [Hermes Agent First Look - Nous Research's Self-Improving AI Agent (Quickstart Walkthrough)](https://www.youtube.com/watch?v=UEszjeHEeSo) | Beomsu Koh | Quickstart walkthrough |
+
+---
+
+## Community
+
+| Where | Link | Note |
+|-------|------|------|
+| Discord | [discord.gg/NousResearch](https://discord.gg/NousResearch) | Linked from the official docs and repo |
+| GitHub Issues | [NousResearch/hermes-agent/issues](https://github.com/NousResearch/hermes-agent/issues) | Bugs and feature requests |
+| Skills Hub | [agentskills.io](https://agentskills.io) | Open skills standard and hub |
+| Nous Research on X | [x.com/NousResearch](https://x.com/NousResearch) | News from the lab |
+
+Unofficial sites such as hermesagents.net and hermes-agent.org are not run by Nous Research. There is no official subreddit or GitHub Discussions page that I could verify.
 
 ---
 

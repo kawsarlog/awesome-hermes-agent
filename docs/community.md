@@ -7,8 +7,14 @@
 
 - Discord: [discord.gg/NousResearch](https://discord.gg/NousResearch)
 - Official issues: [NousResearch/hermes-agent/issues](https://github.com/NousResearch/hermes-agent/issues)
+- X: [x.com/NousResearch](https://x.com/NousResearch)
+- Skills Hub: [agentskills.io](https://agentskills.io)
+- Video tutorials: see the [README](../README.md#video-tutorials)
 - Community gallery: [get-hermes.ai/community](https://get-hermes.ai/community/)
 - Skills browsing: [agentskills.io](https://agentskills.io), [AgentSkillsHub](https://agentskillshub.top/?search=Hermes&tab=explore&min_stars=1000), [getclawcloud.com/skills](https://getclawcloud.com/skills)
+
+> [!NOTE]
+> hermesagents.net and hermes-agent.org are unofficial. No official subreddit or GitHub Discussions page was found.
 
 ## Other awesome lists
 
