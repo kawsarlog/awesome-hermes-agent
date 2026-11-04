@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+__pycache__/
+
+# Local research / cache
+.firecrawl/
+assets/_refs/
+
+# Working files (not for GitHub publish)
+_workfiles/
+assets/reference/
+assets/samples/
+_star_snapshot.json
+IMAGE_STYLE.md
+IMAGE_LIST.md
+UPLOAD_WITH_CLAUDE.md

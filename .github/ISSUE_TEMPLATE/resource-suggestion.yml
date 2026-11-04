@@ -1,0 +1,42 @@
+name: Resource suggestion
+description: Suggest a verified Hermes Agent resource
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Full https link you opened yourself
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Official docs, Guide, Video, Community project, Skill, UI, Tool, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps beginners
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I opened the URL and it loads
+          required: true
+        - label: No invented pricing or features in my write-up
+          required: true
+        - label: I did not paste secrets, cookies, or tokens
+          required: true

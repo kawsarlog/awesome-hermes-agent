@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: Awesome Hermes Agent
+message: If you use this community guide, please cite it as below.
+type: software
+authors:
+  - name: Awesome Hermes Agent contributors
+abstract: Beginner-friendly awesome list and guides for Hermes Agent (Nous Research) with verified links.
+license: CC0-1.0
+keywords:
+  - hermes-agent
+  - nous-research
+  - awesome-list
+  - ai-agents
+  - agentskills

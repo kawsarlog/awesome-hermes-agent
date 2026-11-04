@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official Hermes Agent docs
+    url: https://hermes-agent.nousresearch.com/docs/
+    about: Install, skills, memory, security, CLI
+  - name: Official Hermes Agent issues
+    url: https://github.com/NousResearch/hermes-agent/issues
+    about: Bugs and feature requests for the agent itself
+  - name: Nous Research Discord
+    url: https://discord.gg/NousResearch
+    about: Community chat

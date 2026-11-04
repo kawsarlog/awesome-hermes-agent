@@ -1,0 +1,30 @@
+name: Correction
+description: Fix a wrong fact or broken link
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Official docs or other verified page
+    validations:
+      required: true
